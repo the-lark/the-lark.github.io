@@ -23,6 +23,7 @@ width:-moz-calc(20%)}.sqs-block-summary-v2:hover .sqs-block-is-placeholder[data-
 /**
  * @group Typography
  */
+html, body { font-family: "Times" !important; }
 @font-face {
     font-family: "Chapaza Italic";
     src: url("../../../../../../../../../public/fonts/Chapaza Italic.ttf");
