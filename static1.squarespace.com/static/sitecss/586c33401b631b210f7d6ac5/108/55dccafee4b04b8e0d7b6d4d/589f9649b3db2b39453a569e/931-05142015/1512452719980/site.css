@@ -29,3 +29,11 @@ html, body { font-family: "Times" !important; }
     src: url("../../../../../../../../../public/fonts/Chapaza Italic.ttf");
 }
 .site-title { font-family: "Chapaza Italic" !important; }
+
+/**
+ * @group Visual art submissions (image posts).
+ */
+#the-lark-gallery-container {
+    margin: 0;
+    padding: 0;
+}
