@@ -1,0 +1,14 @@
+<h3 class="text-align-center">
+    <em>
+        {% if page.previous %}<a href="{{ page.previous | relative_url }}">
+            &lt; {% if page.previous_text %}{{ page.previous_text}}{% else %}previous{% endif %}
+        </a>{% endif %}
+        |
+        {% if page.next %}<a href="{{ page.next | relative_url }}">
+            {% if page.next_text %}{{ page.next_text }}{% else %}next{% endif%} &gt;
+        </a>
+        {% else %}
+            END
+        {% endif %}
+    </em>
+</h3>

@@ -372,19 +372,27 @@
         
 
         <main id="page" class="site-page" role="main">
+            <div class="main-content" data-content-field="main-content">
+                <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1511642820588" id="page-589ea512d1758ebeb9e5c07b">
+                    <div class="row sqs-row">
+                        <div class="col sqs-col-12 span-12">
+                            <div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_11_1488053731535_11100">
+                                <div class="sqs-block-content">
+                                    <!-- BEGIN MAIN CONTENT -->
 
-          
+                                    {{ content }}
 
-          <div class="main-content" data-content-field="main-content">
-            
-            <div class="sqs-layout sqs-grid-12 columns-12" data-type="page" data-updated-on="1511642820588" id="page-589ea512d1758ebeb9e5c07b"><div class="row sqs-row"><div class="col sqs-col-12 span-12"><div class="sqs-block html-block sqs-block-html" data-block-type="2" id="block-yui_3_17_2_11_1488053731535_11100"><div class="sqs-block-content">
-                                
-<!-- BEGIN MAIN CONTENT -->
-{{ content }}
-<!-- END MAIN CONTENT -->
+                                    <!-- END MAIN CONTENT -->
 
-          </div>
+                                    {% include sqs-horizontal-rule.html %}
 
+                                    {% include next-previous-pagination.html %}
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </main>
 
         <footer id="footer" class="site-footer" role="contentinfo">
