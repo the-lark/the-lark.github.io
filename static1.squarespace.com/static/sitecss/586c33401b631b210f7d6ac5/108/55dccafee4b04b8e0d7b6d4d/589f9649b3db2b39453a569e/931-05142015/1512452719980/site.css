@@ -31,9 +31,42 @@ html, body { font-family: "Times" !important; }
 .site-title { font-family: "Chapaza Italic" !important; }
 
 /**
+ * @group Table of contents pages.
+ */
+.the-lark-table-of-contents h3 {
+    margin: 2em 0;
+}
+
+/**
  * @group Visual art submissions (image posts).
  */
 #the-lark-gallery-container {
     margin: 0;
     padding: 0;
+}
+
+article.poem {
+    white-space: pre;
+}
+
+/**
+ * @group Masthead contributors.
+ */
+#the-lark-mast-contributors {
+    display: flex;
+}
+#the-lark-mast-contributors section {
+    flex: 1;
+    margin: 0 10px;
+}
+#the-lark-mast-contributors ol {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+#the-lark-mast-contributors li {
+    margin: 2em 0;
+}
+#the-lark-mast-contributors .adr {
+    display: block;
 }
