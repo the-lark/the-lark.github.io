@@ -29,6 +29,9 @@ html, body { font-family: "Times" !important; }
     src: url("../../../../../../../../../public/fonts/Chapaza Italic.ttf");
 }
 .site-title { font-family: "Chapaza Italic" !important; }
+#the-lark-home-page-issue-list a {
+    text-transform: uppercase;
+}
 
 /**
  * @group Table of contents pages.
