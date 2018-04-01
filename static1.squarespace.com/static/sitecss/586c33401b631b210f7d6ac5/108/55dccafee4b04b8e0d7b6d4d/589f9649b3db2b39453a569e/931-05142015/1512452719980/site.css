@@ -57,9 +57,11 @@ article.poem {
  */
 #the-lark-mast-contributors {
     display: flex;
+    flex-wrap: wrap;
 }
 #the-lark-mast-contributors section {
     flex: 1;
+    width: auto;
     margin: 0 10px;
 }
 #the-lark-mast-contributors ol {
