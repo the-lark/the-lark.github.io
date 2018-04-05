@@ -49,7 +49,7 @@ html, body { font-family: "Times" !important; }
 }
 
 article.poem {
-    white-space: pre;
+    white-space: pre-wrap;
 }
 
 /**
